@@ -1,0 +1,53 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: #8CB9BD;
+    text-align: center;
+}
+.heading{
+    color: rgb(26, 11, 160);
+    margin-top:30px;
+}
+.space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.butns{
+    height:300px;
+    width:350px;
+    padding:20px;
+    display: flex;
+    flex-wrap:wrap;
+    gap:2px;
+}
+.box{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    border-radius: 50%;
+    color:rgb(201, 201, 226);
+    font-size: 40px;
+    background-color: #B67352;
+}
+.reset{
+    margin:30px;
+}
+.restbut{
+    height:50px;
+    width:70px;
+    background-color: pink;
+}
+
+.msg-container{
+    height:40px;
+}
+.msg{
+    color:white;
+    font-size: 40px;
+}
+.hide{
+    display:none;
+}
